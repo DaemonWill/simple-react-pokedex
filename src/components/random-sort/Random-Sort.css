@@ -1,0 +1,38 @@
+div.random-sort-container{
+  background-color: #ee1515;
+}
+div.random-sort-btns{
+  padding: 20px;
+}
+button.random-btn, button#sort-btn{
+  background-color: #f0f0f0;
+  color: #222224;
+  border-color: #222224;
+  height: 40px;
+  padding: 5px 10px;
+  font-variant: all-small-caps;
+}
+button.random-btn:hover, button#sort-btn:hover{
+  background-color: #ffffff;
+  color: #606068;
+  border-color: #606068;
+}
+button.random-btn{
+  float: left;
+}
+button#sort-btn{
+  float: right;
+}
+p.random-btn{
+  margin-right: 5px;
+  display: inline;
+}
+
+/* allow buttons to be displayed vertically for small screens */
+@media only screen and (max-width: 360px){
+  button.random-btn, button#sort-btn{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}

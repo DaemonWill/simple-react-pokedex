@@ -1,0 +1,22 @@
+div.pokemon-display-container{
+  height: 100vh;
+}
+div.content-border{
+  background-color: #222224;
+}
+div.pokemon-info{
+  background-color: #f0f0f0;
+  height: 100vh;
+  padding-top: 40px;
+}
+div.number-and-types{
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+h4.pokemon-name{
+  margin-bottom: 10px;
+}
+p.height-weight{
+  margin-top: 2px;
+  margin-bottom: 0px;
+}

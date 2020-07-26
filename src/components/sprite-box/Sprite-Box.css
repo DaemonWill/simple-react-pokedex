@@ -1,0 +1,9 @@
+div.sprite-box-container{
+  background-color: #d4d4d4d4;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  border: solid #222224 2px;
+  padding-top: 56.25%; /*keep aspect ratio 16:9*/
+}

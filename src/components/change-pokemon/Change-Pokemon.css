@@ -1,0 +1,14 @@
+div.change-pokemon-container{
+  text-align: center;
+  padding-top: 80px;
+  flex-direction: column;
+}
+button.arrow-icon{
+  margin-top: 10px;
+  font-size: 300%;
+  border: none;
+  outline: none !important;
+}
+button.arrow-icon:hover{
+  color:  #606068;
+}
