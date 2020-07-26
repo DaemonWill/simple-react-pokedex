@@ -34,4 +34,4 @@ To use the app locally, you can start the server at port **3000** with `npm star
 
 ## Running tests
 
-TODO
+Run an `npm test` in the root folder to execute the current tests

@@ -17,12 +17,17 @@
     "react-scripts": "^3.4.1"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "sinon": "^1.17.7",
     "typescript": "3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "mocha --require @babel/register 'src/**/*.spec.js' --exit",
     "eject": "react-scripts eject"
   },
   "browserslist": [
