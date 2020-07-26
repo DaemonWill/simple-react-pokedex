@@ -20,16 +20,16 @@ To use the app locally, you can start the server at port **3000** with `npm star
 
 ## Using the app/service
 
-* You can cycle through the displayed pokemon by pressing the previous and next arrow buttons on the side
+* You can cycle through the displayed pokemon
 ![Alt Text](https://github.com/DaemonWill/simple-react-pokedex/blob/master/public/gifs/simple-pokedex-switching.gif)
 
-* You can directly search for a pokemon by entering their pokedex-number or their name in the search bar on top
+* You can directly search for a pokemon by entering their pokedex-number or their name
 ![Alt Text](https://github.com/DaemonWill/simple-react-pokedex/blob/master/public/gifs/simple-pokedex-searching.gif)
 
-* You can select a random pokemon to view by hitting the "Random" button
+* You can select a random pokemon
 ![Alt Text](https://github.com/DaemonWill/simple-react-pokedex/blob/master/public/gifs/simple-pokedex-randomizing.gif)
 
-* You can sort the displayed pokemon by their name or pokedex-numbers by using the "Sort By" dropdown button
+* You can sort the displayed pokemon by their name or pokedex-numbers
 ![Alt Text](https://github.com/DaemonWill/simple-react-pokedex/blob/master/public/gifs/simple-pokedex-sorting.gif)
 
 ## Running tests
